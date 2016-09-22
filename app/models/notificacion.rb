@@ -17,7 +17,7 @@ class Notificacion < ActiveRecord::Base
 
 
   def create_permitted?
-    if user_current.instalador && user_current.
+    false
   end
 
   def update_permitted?
