@@ -6,3 +6,13 @@ you can place common code in this file. -->
 <extend tag="page">
   <old-page merge nav-location="sub"/>
 </extend>
+
+
+<def tag="main-nav">
+  <navigation class="main-nav" merge-attrs param="default">
+    <nav-item with="&Financiacion"><ht key="financiacion.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&Notificacion"><ht key="notificacion.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+  </navigation>
+</def>
+
+
