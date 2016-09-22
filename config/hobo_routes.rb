@@ -5,6 +5,10 @@
 Saunierduval::Application.routes.draw do
 
 
+  # Resource routes for controller notificacions
+  resources :notificacions
+
+
   # Resource routes for controller users
   resources :users, :only => [:edit, :show, :create, :update, :destroy] do
     collection do
@@ -24,10 +28,6 @@ Saunierduval::Application.routes.draw do
   get 'logout(.:format)' => 'users#logout', :as => 'user_logout'
   get 'forgot_password(.:format)' => 'users#forgot_password', :as => 'user_forgot_password'
   post 'forgot_password(.:format)' => 'users#forgot_password', :as => 'user_forgot_password_post'
-
-
-  # Resource routes for controller notificacions
-  resources :notificacions
 
 
   # Resource routes for controller financiacions

@@ -1,38 +1,8 @@
 <!-- this file is included by front_site.dryml, admin_site.dryml et al, so
 you can place common code in this file. -->
 
-<def tag="main-nav">
-<!--  <navigation class="main-nav" merge-attrs param="default">-->
-<!--        <nav-item href="#{base_url}/">Home</nav-item>-->
-<!--        <li><a href="www.google.es" class="class-link">Mi perfil</a></li>-->
-<!--<li class="dropdown">-->
-<!--        <a href="#" data-toggle="dropdown" role="button" id="drop-configuracion" class="dropdown-toggle">Mis financiaciones <b class="caret"></b></a>-->
-<!--        <ul aria-labelledby="drop-configuracion" role="menu" class="dropdown-menu" id="menu1">-->
-<!--          <nav-item with="&Financiacion">Listado</nav-item>-->
-<!--          <li class=""><a href="www.google.es" class="class-link">Nueva tramitación</a></li>-->
-<!--          <li class=""><a href="www.google.es" class="class-link">Calculadora cuotas</a></li>-->
-<!--          <li class=""><a href="www.google.es" class="class-link">Calculadora cobros</a></li>-->
-<!--          <li class=""><a href="www.google.es" class="class-link">Notificaciones</a></li>-->
-<!--        </ul>-->
-<!--</li>-->
-<!--        <li><a href="www.google.es" class="class-link">Mis reposiciones</a></li>-->
-<!--        <li><a href="www.google.es" class="class-link">InstalClub</a></li>-->
-<!--  </navigation>-->
-</def>
+
 
 <extend tag="page">
-  <old-page merge>
-    <account-nav:>
-      <logged-in-as: replace>
-        <nav-item href="#{base_url}/">Home</nav-item>
-        <li><a class="class-link">Mi perfil</a></li>
-        <nav-item with="&Financiacion">Mis financiaciones</nav-item>
-        <li><a class="class-link">Mis reposiciones</a></li>
-        <li><a class="class-link">InstalClub</a></li>
-      </logged-in-as:>
-      <sign-up: replace/>
-      <search: replace/>
-      <log-in: data-no-turbolink/>
-    </account-nav:>
-  </old-page>
+  <old-page merge nav-location="sub"/>
 </extend>

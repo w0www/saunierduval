@@ -4,13 +4,13 @@
 
   <content:>
     <header class="content-header hero-unit">
-      <section class="welcome-message">
-    <div class="col-md-12">Financiaciones</div><br/>
-    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Listado</a></div><br/>
-    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Nueva tramitación</a></div><br/>
-    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Calculadora cuotas</a></div><br/>
-    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Calculadora cobros</a></div><br/>
-    <div class="col-md-6">        <a class="btn btn-default" href="notificacions" role="button">Notificaciones</a></div>
+      <section>
+        <div class="col-md-12"><h3>Financiaciones</h3></div>
+        <div class="col-md-6"><a class="btn btn-primary" href="#" role="button">Listado</a></div><br/>
+        <div class="col-md-6"><a class="btn btn-primary" href="#" role="button">Nueva tramitación</a></div><br/>
+        <div class="col-md-6"><a class="btn btn-primary" href="#" role="button">Calculadora cuotas</a></div><br/>
+        <div class="col-md-6"><a class="btn btn-primary" href="#" role="button">Calculadora cobros</a></div><br/>
+        <div class="col-md-6"><a class="btn btn-primary" href="notificacions" role="button">Notificaciones</a></div><br/>
       </section>
     </header>
 
