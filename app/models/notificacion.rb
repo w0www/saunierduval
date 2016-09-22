@@ -29,7 +29,7 @@ class Notificacion < ActiveRecord::Base
   end
 
   def view_permitted?(field)
-    false
+    true
   end
 
 end
