@@ -1,0 +1,7 @@
+/* Logo de la aplicación */
+.app-name a.brand{
+  background-image: url('/assets/logoSD.png');
+  width: 46px;height: 40px;padding: 0;
+  margin: 0;margin-right:20px;text-indent: -9999px;
+  background-size: 50px;
+}

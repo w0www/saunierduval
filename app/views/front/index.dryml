@@ -1,0 +1,21 @@
+<page title="Home">
+
+  <body: class="front-page"/>
+
+  <content:>
+    <header class="content-header hero-unit">
+      <section class="welcome-message">
+    <div class="col-md-12">Financiaciones</div><br/>
+    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Listado</a></div><br/>
+    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Nueva tramitación</a></div><br/>
+    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Calculadora cuotas</a></div><br/>
+    <div class="col-md-6">        <a class="btn btn-default" href="#" role="button">Calculadora cobros</a></div><br/>
+    <div class="col-md-6">        <a class="btn btn-default" href="notificacions" role="button">Notificaciones</a></div>
+      </section>
+    </header>
+
+    <section class="content-body">
+    </section>
+  </content:>
+
+</page>
