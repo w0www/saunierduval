@@ -6,3 +6,7 @@
   background-size: 50px;
 }
 
+input.login-input, input.password-input{
+width: 100%;
+}
+
