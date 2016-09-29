@@ -21,7 +21,7 @@ width: 100%;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled]{
-  background-image: linear-gradient(to bottom, #000, #000);
-  background-color: #000;
+  background-image: linear-gradient(to bottom, #464646, #464646);
+  background-color: #464646;
   color: #fff
 }
