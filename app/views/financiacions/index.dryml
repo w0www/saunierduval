@@ -1,11 +1,11 @@
 <index-page>
 
   <before-content-header:>
-    <a class="btn btn-primary" href="#" role="button">Listado</a>
-    <a class="btn btn-primary" href="#" role="button">Nueva tramitación</a>
-    <a class="btn btn-primary" href="#" role="button">Calculadora cuotas</a>
-    <a class="btn btn-primary" href="#" role="button">Calculadora cobros</a>
-    <a class="btn btn-primary" href="notificacions" role="button">Notificaciones</a>
+    <a class="btn btn-primary" href="#" role="button" style="margin-bottom:2%">Listado</a>
+    <a class="btn btn-primary" href="#" role="button" style="margin-bottom:2%">Nueva tramitación</a>
+    <a class="btn btn-primary" href="#" role="button" style="margin-bottom:2%">Calculadora cuotas</a>
+    <a class="btn btn-primary" href="#" role="button" style="margin-bottom:2%">Calculadora cobros</a>
+    <a class="btn btn-primary" href="notificacions" role="button" style="margin-bottom:2%">Notificaciones</a>
     <br/><br/>
   </before-content-header:>
 
