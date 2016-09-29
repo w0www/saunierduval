@@ -7,11 +7,7 @@
 }
 
 @media (max-width : 499) {
-  input#password, input#login {
+  .password-input, .login-input  {
     width: 100%;
   }
-
-
-
-
 }
