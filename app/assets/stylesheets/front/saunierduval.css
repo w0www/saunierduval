@@ -22,5 +22,6 @@ width: 100%;
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled]{
   background-image: linear-gradient(to bottom, #000, #000);
+  background-color: #000;
   color: #fff
 }
