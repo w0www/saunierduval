@@ -6,6 +6,7 @@
     <a class="btn btn-primary" href="#" role="button">Calculadora cuotas</a>
     <a class="btn btn-primary" href="#" role="button">Calculadora cobros</a>
     <a class="btn btn-primary" href="notificacions" role="button">Notificaciones</a>
+    <br/><br/>
   </before-content-header:>
 
 </index-page>

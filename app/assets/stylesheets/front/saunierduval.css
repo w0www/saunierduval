@@ -25,3 +25,7 @@ width: 100%;
   background-color: #464646;
   color: #fff
 }
+
+.new-financiacion-link{
+  visibility: hidden; 
+}
