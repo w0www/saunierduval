@@ -17,5 +17,5 @@
 /tmp
 
 # Ignore some config files.
-/config/environments/
-config/secrets.yml
+/config/environments/*
+/config/secrets.yml
