@@ -6,8 +6,3 @@
   background-size: 50px;
 }
 
-@media (max-width : 499) {
-  .password-input, .login-input  {
-    width: 100%;
-  }
-}
