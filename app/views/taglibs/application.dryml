@@ -4,7 +4,15 @@ you can place common code in this file. -->
 
 
 <extend tag="page">
-  <old-page merge nav-location="sub"/>
+  <old-page merge nav-location="sub">
+    <before-navbar:>
+      <% unless root_path? %>
+        <%= link_to 'javascript:history.go(-1);', :class => "btn btn-large", id: "backbutton" do %>
+          <i class="icon-step-backward icon-4x"></i>
+        <% end %>
+      <% end %>
+    </before-navbar:>
+  </old-page>
 </extend>
 
 
