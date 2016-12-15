@@ -94,7 +94,6 @@
     </content-header:>
 
     <content-body: param>
-      <field-list fields="nombre, cuerpo" param/>
     </content-body:>
 
   </page>
@@ -206,7 +205,6 @@
     </content-header:>
 
     <content-body: param>
-      <field-list fields="nombre, cuerpo, estado" param/>
     </content-body:>
 
   </page>
@@ -312,7 +310,7 @@
         </ht>
       </h2>
 
-      <record-flags fields="administrator" param/>
+      <record-flags fields="" param/>
 
       <a action="edit" if="&can_edit?" param="edit-link">
         <ht key="user.actions.edit" name="#{name(:no_wrapper => true)}">
@@ -322,7 +320,6 @@
     </content-header:>
 
     <content-body: param>
-      <field-list fields="email_address, state" param/>
     </content-body:>
 
   </page>

@@ -4,7 +4,7 @@
 <def tag="form" for="Financiacion">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="nombre, cuerpo" param/>
+    <field-list fields="" param/>
     <div param="actions">
       <submit label="#{ht 'financiacion.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -16,7 +16,7 @@
 <def tag="form" for="Notificacion">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="nombre, cuerpo, fecha, estado" param/>
+    <field-list fields="" param/>
     <div param="actions">
       <submit label="#{ht 'notificacion.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -28,7 +28,7 @@
 <def tag="form" for="User">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="name, email_address, administrator, state" param/>
+    <field-list fields="" param/>
     <div param="actions">
       <submit label="#{ht 'user.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>

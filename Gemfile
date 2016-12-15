@@ -57,3 +57,8 @@ gem 'hobo_bootstrap', '2.2.6'
 gem 'hobo_jquery_ui', '2.2.6'
 gem 'hobo_bootstrap_ui', '2.2.6'
 gem 'jquery-ui-themes', '~> 0.0.4'
+
+gem 'pushbots'
+#gem "pushwoosh", :git => "git://github.com/w0www/pushwoosh.git"
+#gem 'browser'
+
